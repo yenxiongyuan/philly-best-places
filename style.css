@@ -1,0 +1,23 @@
+p {
+    color: white;
+}
+
+body {
+    background: black;
+}
+
+nav {
+    color:blue;
+}
+
+header {
+    color: aqua;
+}
+
+h2 {
+    color: lightgreen ;
+}
+
+footer {
+    color: lightpink;
+}
