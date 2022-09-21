@@ -41,3 +41,7 @@ h1, h2 {
 script {
     color: white
 }
+
+hr {
+   background-color: aqua; height: 2px; border: 0;
+}

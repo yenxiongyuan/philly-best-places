@@ -58,5 +58,17 @@ return document.write(message1);
 // };
 // webMessage();
 
+function showCityHall(){
+    const userNum = prompt('How many times do you want to see Philadelphia City Hall picture? Pick from 1- 5');
+    
+    for(let i = 0; (i < userNum && i < 5); i++ ){
+        
+        let pick = confirm("Press a button!\nEither OK or Cancel."); 
+        let docWriteP = document.write(`This is picture ${i + 1}`);
+        let docWrite = document.write("<img src='Philadelphia-City-Hall.jpg' style='width:250px;'/>")
+        choice = (pick === true) ? docWriteP + docWrite : alert('Please pick from 1- 5'); 
+        } 
+    };
+
 
 
